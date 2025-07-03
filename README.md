@@ -5,8 +5,13 @@ Existing users can log in directly using their username and password.
 For enhanced security, user passwords are hashed before being stored in the database. 
  This project demonstrates basic user authentication and secure data handling in a full-stack web application.
 
+Register Page
 ![image alt](https://github.com/Gopika-T2103/Loginformsubmission/blob/main/Register.png)
+
+Login Page
 ![image alt](https://github.com/Gopika-T2103/Loginformsubmission/blob/main/loginpage.png)
+
+Home Page
 ![image alt](https://github.com/Gopika-T2103/Loginformsubmission/blob/main/Homepage.png)
 
 
