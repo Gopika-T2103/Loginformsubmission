@@ -1,0 +1,147 @@
+/* General Reset & Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Style the body and set background image */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pro.jpg) no-repeat center center/cover;
+}
+
+/* style the main container of the form */
+.form-container {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 40px;
+    color: #fff;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+}
+
+/* style the form heading */
+.form-container h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* styling the group each input and its icon */
+.form-container .form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+/* style the input fields */
+.form-group input {
+    width: 100%;
+    padding: 14px 45px 14px 15px;
+    border: none;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+    color: #fff;
+    outline: none;
+}
+
+/* placeholder styling */
+.form-group input::placeholder {
+    color: #fff;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+/* icon styling inside the input */
+.form-group i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: white;
+}
+
+/* Container for remember and forgot links  */
+.form-container .remem-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -5px 0 20px;
+    color: #fff;
+}
+
+/* checkbox style */
+.remem-forgot label input {
+    accent-color: #fff;
+    margin-right: 6px;
+}
+
+/* forgot password link styling */
+.remem-forgot a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.remem-forgot a:hover {
+    text-decoration: underline;
+}
+
+/* submitt button styling */
+.form-container .submitbtn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 40px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* submit button hover effect */
+.form-container .submitbtn:hover {
+    background: #f0f0f0;
+}
+
+/* register link container styling */
+.form-container .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.register-link a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.register-link a :hover{
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover
+{
+    text-decoration: underline;
+}
+
