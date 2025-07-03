@@ -6,3 +6,7 @@ For enhanced security, user passwords are hashed before being stored in the data
  This project demonstrates basic user authentication and secure data handling in a full-stack web application.
 
 ![image alt](https://github.com/Gopika-T2103/Loginformsubmission/blob/main/Register.png)
+![image alt](https://github.com/Gopika-T2103/Loginformsubmission/blob/main/Register.png)
+![image alt](https://github.com/Gopika-T2103/Loginformsubmission/blob/main/Register.png)
+
+
